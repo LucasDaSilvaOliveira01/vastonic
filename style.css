@@ -114,8 +114,23 @@
 #section-floor {
     background-color: rgba(29, 36, 42, 0.9);
     height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
 }
 
 #section-floor a {
     color: rgba(255, 255, 255, 0.5);
+}
+#section-floor > div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#section-floor > div:nth-child(2) img {
+    width: 80px;
 }
